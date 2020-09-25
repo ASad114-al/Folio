@@ -18,9 +18,7 @@
     background:#efe8d7 ;
     
     height: 120vh;
-  /*  height: 400%; */
- /*    width: 100%; */
-     
+  
     
 
 }
@@ -70,14 +68,14 @@
     text-align: center;
     border-bottom: 1px solid #282b29;
     padding-top: 20%;
-    font-size: 300%;
+    font-size: 8rem;
     
    
     
 }
 #unterline samp
 {
-    font-size: 300%;
+    font-size: 7rem;
     font-family:athene;
 }
 #unterline 
@@ -149,7 +147,7 @@
 #tabel_ tr, th, td
 {
     /* border-bottom: 1px solid black; */
-    min-width:  5px;
+    min-width:  35px;
     /* max-height: 5px; */
     border-bottom: 1px solid black;
 }
@@ -169,9 +167,9 @@
 table td p
  {   
      font-size:10px;
-     /* text-align: right; */
-     /* padding-right: 20%; */
-     
+  /*   text-align: right; 
+      padding-right: 20%;
+      */
      
  }
  
@@ -197,7 +195,7 @@ table td p
      
  } */
 
- tr:nth-of-type(2) td:nth-of-type(1)
+ tr:nth-of-type(2) td:nth-of-type(1) 
  {
      
      font-size: 6px;
@@ -206,20 +204,35 @@ table td p
    
     
  }
- tr:nth-of-type(3) td:nth-of-type(1)
+ tr:nth-of-type(3) td:nth-of-type(1) 
  {
      
      font-size: 6px;
      
      padding-right: 5%;
  }
- tr:nth-of-type(4) td:nth-of-type(1)
+ tr:nth-of-type(4) td:nth-of-type(1) 
  {  
    
      font-size: 6px;
-   
-     padding-right: 5%;
+    
+     padding-right:5%;
  }
+ tr:nth-of-type(2) td:nth-of-type(2) p 
+ {
+    
+    font-size: 15px;
+   
+ }
+ tr:nth-of-type(3) td:nth-of-type(2) p 
+ {
+   
+    font-size: 15px;
+    
+ }
+ 
+
+
   #stampel  img
  {
      
