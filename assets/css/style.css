@@ -1,0 +1,429 @@
+   
+  /*  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+   
+   @font-face{
+    font-family:athene;
+    src: url(/assets/font/Athene.otf)
+}
+
+
+
+   *{
+       margin: 0;
+       padding: 0;
+   }
+  .first
+{
+   
+    background:#efe8d7 ;
+    
+    height: 120vh;
+  /*  height: 400%; */
+ /*    width: 100%; */
+     
+    
+
+}
+
+.nav_class
+{
+    position: fixed;
+    border-bottom :1px solid #282b29;
+    width: 110%;
+    height: 30px; 
+    font-family: 'Open Sans', sans-serif;
+   
+   
+   /*  margin-top: 0 auto;
+  
+    
+    color: #002A5A;
+    border-bottom: 1px  solid #002A5A;
+    padding-left: 80%; */
+    
+}
+
+
+.nav_class p:nth-of-type(1)
+{
+    position: relative;
+    display: inline;
+    font-size: 1em;
+    left: 10%;
+     top: 10px;
+ 
+    
+}
+
+.nav_class p:nth-of-type(2)
+{
+  position: relative;
+    display: inline;
+    font-size: 1em;
+    left: 70%;
+    top: 10px;
+}
+#unterline span
+{
+   /*  position: relative; */
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #282b29;
+    padding-top: 20%;
+    font-size: 300%;
+    
+   
+    
+}
+#unterline samp
+{
+    font-size: 300%;
+    font-family:athene;
+}
+#unterline 
+{    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #282b29;
+    width: 50%;
+    left: 20%;
+    
+    color:#002a5a ;
+    font-family:athene;
+    padding-bottom: 20px;
+    padding-top: 20px;
+     font-size: 3rem;
+    
+    
+
+   
+}
+
+
+.first figure
+{
+    padding-left: 35%;
+    padding-top: 5%;
+    
+}
+.first figcaption
+{
+    color: #002a5a;
+}
+.first figcaption span
+
+{
+     color: #002a5a;
+     font-family:athene;
+}
+
+.second
+{
+    background: #F4C4C4;
+    height: 130vh;
+}
+
+
+.second h1
+{
+    font-size: small;
+    padding: 5%;
+}
+.second h2
+{
+    font-size: 8rem;
+    font-family:athene;
+
+
+}
+.second span
+{
+  display: block;
+}
+.second p
+{
+    padding-left: 65%;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#tabel_ tr, th, td
+{
+    /* border-bottom: 1px solid black; */
+    min-width:  5px;
+    /* max-height: 5px; */
+    border-bottom: 1px solid black;
+}
+ #tabel_
+ {
+     position: relative;
+     left: 60%;
+     top: 10%;
+ }
+
+ tr:nth-of-type(1) th
+ { 
+     
+     
+  text-align: right;
+ }
+table td p
+ {   
+     font-size:10px;
+     /* text-align: right; */
+     /* padding-right: 20%; */
+     
+     
+ }
+ 
+
+/* table td p
+ {
+     font-size:1em;
+     text-align:right;
+     padding-left: 20%;
+   
+     
+     
+ } */
+ 
+
+/*  table td
+ { 
+     font-size:1em;
+     text-align: right;
+     padding-left: 5%;
+     
+     
+     
+ } */
+
+ tr:nth-of-type(2) td:nth-of-type(1)
+ {
+     
+     font-size: 6px;
+    
+     padding-right: 5%;
+   
+    
+ }
+ tr:nth-of-type(3) td:nth-of-type(1)
+ {
+     
+     font-size: 6px;
+     
+     padding-right: 5%;
+ }
+ tr:nth-of-type(4) td:nth-of-type(1)
+ {  
+   
+     font-size: 6px;
+   
+     padding-right: 5%;
+ }
+  #stampel  img
+ {
+     
+     width: 8%;
+     padding-left: 84%;
+     padding-top: 15%;
+     
+   
+ }
+
+
+
+ .thire
+ {
+     background: #DEB873;
+     height:370vh;
+ }
+
+ .thire h1
+ {
+    font-size: small;
+    padding-left: 90%;
+    padding-top: 8%;
+    color: #7d2222;
+    
+}
+.thire h2
+{
+    padding-left: 80%;
+    font-size: 8rem;
+    padding-top: 3%;
+    color: #7d2222;
+    font-family:athene;
+}
+.thire h3{
+    padding-left: 90%;
+    font-size: 8rem;
+    color: #7d2222;
+    font-family:athene;
+    
+
+}
+.thire p
+{
+    padding-left: 4%;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #7d2222;
+}
+    
+
+.first_img 
+{
+    position: relative;
+    left: 45%;
+    top: 10%;
+}
+
+
+.first_img h4
+{
+    position: absolute;
+    left: -37.5%;
+    color: #7d2222;
+    font-family:athene;
+    font-size: 6rem;
+
+
+
+  
+   
+}
+.second_img
+{
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.second_img h5
+{   
+    position:absolute;
+    color: #7d2222;
+    font-family:athene;
+    font-size: 6rem;
+    left: 60%;
+    top: 20%;
+}
+.second_img h5:nth-of-type(2)
+{
+    margin-top: 6%;
+    margin-left: -10%;
+
+}
+.thire_img 
+{
+    position: relative;
+    left: 45%;
+    top: 20%;
+}
+
+
+
+
+.thire_img h6
+{
+    position: absolute;
+    left: -37.5%;
+    color: #7d2222;
+    font-family:athene;
+    font-size: 6rem;
+
+
+
+  
+   
+}
+.fourth_img
+{
+    position: relative;
+    top: 26%;
+    left: 15%;
+}
+
+
+.fourth_img h5
+{   
+    position:absolute;
+    color: #7d2222;
+    font-family:athene;
+    font-size: 6rem;
+    left: 56%;
+    top: 10%;
+    margin-top: -3%;
+    margin-left: -5%;
+}
+
+
+.fourth_img h5:nth-of-type(2)
+{
+    margin-top: 6%;
+    margin-left: -8%;
+
+}
+
+
+
+
+
+
+.fourth
+{
+    background:#D2D2D2 ;
+    height: 85vh;
+}
+
+
+
+.fourth h1
+{
+    font-size: small;
+    padding: 5%;
+    color: #1d8883;
+}
+.fourth h2
+{
+    font-size: 8rem;
+    font-family:athene;
+    color: #1d8883;
+
+}
+.fourth p
+{
+    padding-left: 30%;
+   
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #1d8883;
+}
+.fourth li
+{
+    padding-left: 93%;
+    
+    margin: 0.5%;
+   
+}
+.fourth ul
+{
+    padding-top: 3%;
+}
+.fourth li
+{
+    list-style: none;
+}
+
+    
+.fourth a
+{
+    
+    text-decoration: none;
+
+    color: #1d8883;
+}
+
+.fourth li:hover
+{
+    text-decoration: underline;
+}
